@@ -2,9 +2,14 @@
 
 In this project-
 
-* Data is imported from CSV and then the CSV data is then analyzed using python.  
-* Line chart is created to plot the moving average and city’s temperatures (Amsterdam in my case) is compared with the global temperatures. 
-* Observations about the similarities and differences between the world averages and my city’s averages, as well as overall trends are made.
+* Two data sets ` pick-up ` and ` weather ` are imported.
+* Datasets are imported from CSV and then the CSV data is then analyzed using python.  
+* Pick up dataset is clustered into three regions.
+* Weather data are prepared for hourly and aligned with pick up data.
+* Counted the pick up number and classify into three level as '0' for `low`, '1' for `medium`, and '2' for `high`.
+* Different ML classifiers are applied for the train and test dataset and depicted the accuracy.
+* Applied deep learning method to check the accuracy.
+* ` Random Forest ` provided best accuracy for train and test data.
 
-#### This project considers the pick up location and weather data to predict future demand   
+
 
